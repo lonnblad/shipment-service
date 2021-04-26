@@ -1,7 +1,5 @@
 # Sequence Diagrams
 
-[Back to README.md](/README.md)
-
 ## Create Shipment
 
 ![create_shipment.svg](diagrams/create_shipment.svg)

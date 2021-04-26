@@ -1,7 +1,5 @@
 # Deployment
 
-[Back to README.md](/README.md)
-
 In this chapter I will try to present my reasoning around deployment and scaling.
 
 I will use AWS services as references.

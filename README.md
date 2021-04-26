@@ -9,8 +9,8 @@ The service will have a REST API and is designed around being a multi-tenant sol
 **Table of Contents**
 
 - [Getting Started](#getting-started)
-- [Configuration](#configuration)
   - [Run the Shipment-Service](#run-the-shipment-service)
+- [Configuration](#configuration)
 - [File Structure](#file-structure)
 - [Choices](#choices)
 - [Thoughts](#thoughts)
@@ -30,7 +30,7 @@ The service will have a REST API and is designed around being a multi-tenant sol
 
 This make target will start the service locally on serve the REST API on port 8080.
 
-A few links to the running service
+A few links to the running local service.
 
 - [Health Status](http://localhost:8080/healthy/status)
 - [Swagger API](http://localhost:8080/v1/docs/swagger/index.html)
