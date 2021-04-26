@@ -1,10 +1,20 @@
 # Shipment Service - backend
 
-This repository is designed to showcase my take on how to design a micro-service.
+This repository is designed to showcase a structure for a micro-service.
 
-It will talk about the lifecycle, documentation and testing and give some thoughts around issues that won't be covered, like authentication, distributed tracing and deployment.
+In this service, we have the concept of a **shipment.**
+
+The customer will provide the service with information about a shipment they'd like to send, and the service will respond with a price.
+
+The service is able to do 3 things:
+
+- List all shipments that have been sent to the system.
+- Add a new shipment.
+- Get a single shipment by it's ID.
 
 The service will have a REST API and is designed around being a multi-tenant solution.
+
+NOTE: Neither authentication, nor authorization is a part of the solution.
 
 **Table of Contents**
 
