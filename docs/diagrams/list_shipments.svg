@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="270px" preserveAspectRatio="none" style="width:695px;height:270px;background:#FEFEFE;" version="1.1" viewBox="0 0 695 270" width="695px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mkffya8p6p7b" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFF9E7" height="258.3906" style="stroke:#FEFEFE;stroke-width:1.0;" width="429.5" x="259.5" y="6"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="130" x="409.25" y="18.0669">Shipment Service</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="35" x2="35" y1="60.4297" y2="226.0938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="315.5" x2="315.5" y1="60.4297" y2="226.0938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="519" x2="519" y1="60.4297" y2="226.0938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="637" x2="637" y1="60.4297" y2="226.0938"/><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="57" x="5" y="25.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="12" y="45.1279">Client</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="57" x="5" y="225.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="12" y="245.0889">Client</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="100" x="263.5" y="25.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="270.5" y="45.1279">REST server</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="100" x="263.5" y="225.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="270.5" y="245.0889">REST server</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="117" x="459" y="25.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="466" y="45.1279">Business Logic</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="117" x="459" y="225.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="466" y="245.0889">Business Logic</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="91" x="590" y="25.1328"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="597" y="45.1279">Data Layer</text><rect fill="#E7EEFA" filter="url(#f1mkffya8p6p7b)" height="30.2969" style="stroke:#0F58D6;stroke-width:1.5;" width="91" x="590" y="225.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="597" y="245.0889">Data Layer</text><polygon fill="#0F58D6" points="303.5,87.5625,313.5,91.5625,303.5,95.5625,307.5,91.5625" style="stroke:#0F58D6;stroke-width:1.0;"/><line style="stroke:#0F58D6;stroke-width:1.0;" x1="35.5" x2="309.5" y1="91.5625" y2="91.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="256" x="42.5" y="86.4966">GET /v1/tenants/{tenant_id}/shipments</text><polygon fill="#0F58D6" points="507.5,116.6953,517.5,120.6953,507.5,124.6953,511.5,120.6953" style="stroke:#0F58D6;stroke-width:1.0;"/><line style="stroke:#0F58D6;stroke-width:1.0;" x1="315.5" x2="513.5" y1="120.6953" y2="120.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="322.5" y="115.6294">List Shipments</text><polygon fill="#0F58D6" points="530.5,145.8281,520.5,149.8281,530.5,153.8281,526.5,149.8281" style="stroke:#0F58D6;stroke-width:1.0;"/><polygon fill="#0F58D6" points="625.5,145.8281,635.5,149.8281,625.5,153.8281,629.5,149.8281" style="stroke:#0F58D6;stroke-width:1.0;"/><line style="stroke:#0F58D6;stroke-width:1.0;" x1="524.5" x2="631.5" y1="149.8281" y2="149.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="536.5" y="144.7622">List Shipments</text><polygon fill="#0F58D6" points="326.5,174.9609,316.5,178.9609,326.5,182.9609,322.5,178.9609" style="stroke:#0F58D6;stroke-width:1.0;"/><line style="stroke:#0F58D6;stroke-width:1.0;" x1="320.5" x2="518.5" y1="178.9609" y2="178.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="332.5" y="173.895">Return the found shipments</text><polygon fill="#0F58D6" points="46.5,204.0938,36.5,208.0938,46.5,212.0938,42.5,208.0938" style="stroke:#0F58D6;stroke-width:1.0;"/><line style="stroke:#0F58D6;stroke-width:1.0;" x1="40.5" x2="314.5" y1="208.0938" y2="208.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="52.5" y="203.0278">Return the found shipments</text><!--MD5=[d6bc1f868daf2610b5b58cb5a7cc1d31]
+@startuml
+scale max 1920 width
+
+skinparam backgroundColor #fefefe
+skinparam BoxPadding 6
+
+skinparam sequence {
+  ArrowColor #0F58D6
+  ActorBorderColor #0F58D6
+  BoxBackgroundColor #FFF9E7
+  BoxBorderColor transparent
+  GroupBackgroundColor transparent
+  GroupBodyBackgroundColor transparent
+  GroupBorderThickness 1
+  ParticipantBackgroundColor #E7EEFA
+  ParticipantBorderColor #0F58D6
+}
+
+participant "Client" as client
+
+box "Shipment Service"
+  participant "REST server" as rest
+  participant "Business Logic" as logic
+  participant "Data Layer" as datalayer
+end box
+
+client -> rest: GET /v1/tenants/{tenant_id}/shipments
+
+rest -> logic: List Shipments
+logic <-> datalayer: List Shipments
+logic -> rest: Return the found shipments
+rest -> client: Return the found shipments
+@enduml
+
+PlantUML version 1.2021.5beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
