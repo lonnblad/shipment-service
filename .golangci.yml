@@ -1,0 +1,100 @@
+run:
+  # timeout for analysis, e.g. 30s, 5m, default is 1m
+  deadline: 5m
+
+  concurrency: 4
+
+  # skip-files:
+  # skip-dirs:
+  #   - cmd/example/docs/generated
+
+linters-settings:
+  errcheck:
+    # default is false: such cases aren't reported by default.
+    check-blank: true
+  govet:
+    # report about shadowed variables
+    check-shadowing: true
+  gocyclo:
+    # minimal code complexity to report, 30 by default (but we recommend 10-20)
+    min-complexity: 20
+  gocognit:
+    # minimal code complexity to report, 30 by default (but we recommend 10-20)
+    min-complexity: 25
+  dupl:
+    # tokens count to trigger issue, 150 by default
+    threshold: 150
+  lll:
+    line-length: 140
+
+linters:
+  disable-all: true
+  enable:
+    - asciicheck
+    - bodyclose
+    # - cyclop
+    - deadcode
+    - depguard
+    - dogsled
+    - dupl
+    # - durationcheck
+    - errcheck
+    # - errorlint
+    # - exhaustive
+    # - exhaustivestruct
+    - exportloopref
+    # - forbidigo
+    - funlen
+    # - gci
+    # - gochecknoglobals
+    # - gochecknoinits
+    - gocognit
+    # - goconst
+    - gocritic
+    - gocyclo
+    # - godot
+    - godox
+    # - goerr113
+    - gofmt
+    # - gofumpt
+    # - goheader
+    - goimports
+    # - golint
+    - gomnd
+    - gomodguard
+    - goprintffuncname
+    - gosec
+    - gosimple
+    - govet
+    # - ifshort
+    - ineffassign
+    # - interfacer
+    - lll
+    # - makezero
+    - misspell
+    - nakedret
+    # - nestif
+    # - nlreturn
+    # - noctx
+    - nolintlint
+    # - paralleltest
+    - prealloc
+    # - predeclared
+    # - revive
+    # - rowserrcheck
+    # - scopelint
+    # - sqlclosecheck
+    - staticcheck
+    - structcheck
+    - stylecheck
+    - testpackage
+    # - thelper
+    # - tparallel
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - varcheck
+    - whitespace
+    # - wrapcheck
+    - wsl

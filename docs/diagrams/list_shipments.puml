@@ -1,0 +1,35 @@
+@startuml List Shipments
+
+scale max 1920 width
+
+skinparam backgroundColor #fefefe
+skinparam BoxPadding 6
+
+skinparam sequence {
+  ArrowColor #0F58D6
+  ActorBorderColor #0F58D6
+  BoxBackgroundColor #FFF9E7
+  BoxBorderColor transparent
+  GroupBackgroundColor transparent
+  GroupBodyBackgroundColor transparent
+  GroupBorderThickness 1
+  ParticipantBackgroundColor #E7EEFA
+  ParticipantBorderColor #0F58D6
+}
+
+participant "Client" as client
+
+box "Shipment Service"
+  participant "REST server" as rest
+  participant "Business Logic" as logic
+  participant "Data Layer" as datalayer
+end box
+
+client -> rest: GET /v1/tenants/{tenant_id}/shipments
+
+rest -> logic: List Shipments
+logic <-> datalayer: List Shipments
+logic -> rest: Return the found shipments
+rest -> client: Return the found shipments
+
+@enduml
