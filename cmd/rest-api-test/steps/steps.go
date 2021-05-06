@@ -31,40 +31,12 @@ func RegisterSteps(s *godog.ScenarioContext) {
 	s.Step(`^the returned error should have$`, state.theReturnedErrorShouldHave)
 }
 
-func (state *sharedState) aRequestToCreateAShipmentWith(arg1 *godog.Table) error {
+func (state *sharedState) aRequestToCreateAShipmentWith(values *godog.Table) error {
 	createShipmentReq := newCreateShipmentRequest()
 
-	for _, row := range arg1.Rows {
-		key := row.Cells[0].Value
-		value := row.Cells[1].Value
-
-		switch key {
-		case "sender - name":
-			createShipmentReq.Sender.Name = value
-		case "sender - email":
-			createShipmentReq.Sender.Email = value
-		case "sender - address":
-			createShipmentReq.Sender.Address = value
-		case "sender - country code":
-			createShipmentReq.Sender.CountryCode = value
-		case "receiver - name":
-			createShipmentReq.Receiver.Name = value
-		case "receiver - email":
-			createShipmentReq.Receiver.Email = value
-		case "receiver - address":
-			createShipmentReq.Receiver.Address = value
-		case "receiver - country code":
-			createShipmentReq.Receiver.CountryCode = value
-		case "package - weight":
-			weight, err := strconv.Atoi(value)
-			if err != nil {
-				return err
-			}
-
-			createShipmentReq.Package.Weight = weight
-		default:
-			return fmt.Errorf("unsupported key: %s", key)
-		}
+	createShipmentReq, err := decorateWithValues(createShipmentReq, values)
+	if err != nil {
+		return err
 	}
 
 	bs, err := json.Marshal(createShipmentReq)
